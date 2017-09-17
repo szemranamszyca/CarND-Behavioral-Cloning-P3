@@ -41,7 +41,7 @@ Code is quite simple (it implements nVidia architecture presented during lessons
 
 #### 3. Submission code is usable and readable
 
-The model.py file contains the code for training and saving the convolution neural network. As I mentioned, it is nVidia network architecture with one extra dropout layer.
+The model.py file contains the code for training and saving the convolution neural network. As I mentioned, it is nVidia network architecture with one extra dropout layer, and one image cropping layer.
 
 At first, I've opened .csv file and using csv.reader I get all the information form it. As next step, in simple for loop, I've loaded all images and measurments which I used to train a Neural Network.
 
@@ -75,7 +75,7 @@ Now, the extrem values of angle are biased. I've trained my network (only 1184 s
 
 Even on second track (no samples taken there at all) it was going surprisingly well. It didn't finished it (car had accident on the bridge), but taking into account number of samples - it's still good result. (file  - *run_track2.mp4*)
 
-#### 3.  Discussion
+### Discussion
 
 I think major reason why it works is quite low speed at autonomus mode ( 9 ). During testing at higher speeds, car was "oscillating" and fell out of the way.
 
