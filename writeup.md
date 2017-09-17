@@ -69,7 +69,7 @@ I've read a lot materiales preparing for this project and they've got one common
 
 I've tried to be the worst driver ever. I was constatly bouncing from one side to another, only "oscillating" around middle of the road. I took one lap. Let's take a look at my histogram:
 
-![Histogram][Angles' histogram]
+![histogram][Angles' histogram]
 
 Now, the extrem values of angle are biased. I've trained my network (only 1184 samples for train and 296 for validation!), start autonomous driving and... it made it! It finished one lap. (file  - *run_track1.mp4*)
 
