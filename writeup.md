@@ -18,8 +18,8 @@ The goals / steps of this project are the following:
 
 [nvidia]: ./imgs/nVidia_model.png "Nvidia model architecture"
 [histogram]: ./imgs/histogram.png "Angles' histogram"
-[example] ./imgs/data_example.jpg "Image data example"
-[cropped] ./imgs/data_example_cropped.jpg "Image data example"
+[example]: ./imgs/data_example.jpg "Image data example"
+[cropped]: ./imgs/data_example_cropped.jpg "Image data example"
 
 ---
 ### Files Submitted & Code Quality
