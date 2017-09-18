@@ -91,3 +91,5 @@ Even on second track (no samples taken there at all) it was going surprisingly w
 I think major reason why it works is quite low speed at autonomus mode ( 9 ). During testing at higher speeds, car was "oscillating" and fell out of the way.
 
 As I could see, the steering data were sending to autonomous model with high freqency. At speed 9, while car was getting closer to the edge of the road, trajectory was almost immediately corrected (biased extrem values of angles). 
+
+With bug fixed (covert image from RGB to BGR) at higher speed ( 15 ) oscillation are still visible, but vehilice finished one lap without any other problems *speedup.mp4*.
