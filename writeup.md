@@ -18,6 +18,8 @@ The goals / steps of this project are the following:
 
 [nvidia]: ./imgs/nVidia_model.png "Nvidia model architecture"
 [histogram]: ./imgs/histogram.png "Angles' histogram"
+[example] ./imgs/data_example.jpg "Image data example"
+[cropped] ./imgs/data_example_cropped.jpg "Image data example"
 
 ---
 ### Files Submitted & Code Quality
@@ -37,7 +39,7 @@ Using the Udacity provided simulator and my drive.py file, the car can be driven
 ```sh
 python drive.py model.h5
 ```
-Code is quite simple (it implements nVidia architecture presented during lessons), with extra function to plot histogram.
+Code is quite simple (it implements nVidia architecture presented during lessons), with extra function to plot histogram. Also, in drive.py at line 65, I've converted imgage from RGB (PIL) to BGR (default  for OpenCV - model was trained on that color space)
 
 #### 3. Submission code is usable and readable
 
@@ -70,6 +72,15 @@ I've read a lot materiales preparing for this project and they've got one common
 I've tried to be the worst driver ever. I was constatly bouncing from one side to another, only "oscillating" around middle of the road. I took one lap. Let's take a look at my histogram:
 
 ![Angles' histogram][histogram]
+
+And the example of training set (before cropping)
+
+![Example image - center][example]
+
+Cropped image (70px from top, 20px from bottom)
+
+![Example cropped image - center][cropped]
+
 
 Now, the extrem values of angle are biased. I've trained my network (only 1184 samples for train and 296 for validation!), start autonomous driving and... it made it! It finished one lap. (file  - *run_track1.mp4*)
 
