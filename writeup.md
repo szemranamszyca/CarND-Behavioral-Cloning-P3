@@ -82,7 +82,7 @@ Cropped image (70px from top, 20px from bottom)
 ![Example cropped image - center][cropped]
 
 
-Now, the extrem values of angle are biased. I've trained my network (only 1184 samples for train and 296 for validation!) to start autonomous driving and... it made it! It finished one lap. (file  - *run_track1.mp4*)
+Now, the extreme values of angle are biased. I've trained my network (only 1184 samples for train and 296 for validation!) to start autonomous driving and... it made it! It finished one lap. (file  - *run_track1.mp4*)
 
 Even on the second track (no samples taken there at all) it was going surprisingly well. It didn't finished it (the car had accident on the bridge), but taking into account number of samples - it's still a good result. (file  - *run_track2.mp4*)
 
