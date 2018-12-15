@@ -45,7 +45,7 @@ The code is quite simple (it implements nVidia architecture presented during les
 
 The model.py file contains the code for training and saving the convolution neural network. As I mentioned, it is nVidia network architecture with one extra dropout layer and one image cropping layer.
 
-At first, I've opened .csv file and using csv.reader I get all the information from it. As the next step, in simple for loop, I've loaded all images and measurements which I used to train a Neural Network.
+At first, I opened .csv file and using csv.reader I got all the information from it. As the next step, in simple "for loop", I loaded all images and measurements which I had used in order to train a Neural Network.
 
 ### Model Architecture and Training Strategy
 
